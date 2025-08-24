@@ -1,0 +1,11 @@
+name: pulumi-aws-serverless-api
+description: This code can be starting point for a Pulumi AWS project to run an API endpoint with authentication to handle GET and POST requests.
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
